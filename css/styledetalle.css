@@ -1,0 +1,63 @@
+
+
+
+
+.imgp{
+
+width:35%;
+margin: 20px;
+}
+
+.imgp img{
+
+width: 100%;
+height: auto;
+
+
+
+}
+
+
+
+.infoadop{
+width:35% ;
+margin: 20px;
+border:5px;
+border-color: #aa2322;
+}
+
+.cuadrado{
+  background-color: white;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+.rasgos{
+  background-color: #aa2322;
+  padding: 10px;
+  border-radius: 10px;
+}
+hr{
+  color: white;
+}
+
+.cuadrado a{
+  padding: 15px 15px;
+}
+
+@media (max-width:1000px) {
+
+.main{
+  flex-direction: column;
+}
+.imgp{
+width:100%;
+}
+
+.infoadop{
+width:100% ;
+
+}
+
+  }

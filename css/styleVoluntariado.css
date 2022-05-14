@@ -1,0 +1,50 @@
+.imagenP2{
+ width: 100%;
+  margin: 0px;
+  padding: 0px;
+
+
+}
+
+.container{
+
+  padding: 0;
+  margin: 0;
+}
+
+.volunt{
+  background: white;
+  padding-left: 8%;
+  padding-right: 8%;
+padding-bottom: 20px;
+width: 1200px;
+
+}
+.vol{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+
+}
+  @media (max-width:1270px) {
+    .volunt{
+    width: 750px;
+
+    }
+  }
+
+  @media (max-width:800px) {
+    .volunt{
+    width: 400px;
+
+    }
+  }
+
+  @media (max-width:420px) {
+    .volunt{
+    width: 360px;
+
+    }
+  }

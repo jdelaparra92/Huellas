@@ -1,0 +1,42 @@
+.articledogs{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+justify-content: space-around;
+  align-items: center;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+
+.dogs{
+width: 400px;
+height: auto;
+margin: 40px;
+padding: 15px;
+background-color: white;
+border: #aa2322 1px solid;
+
+}
+
+.dogs img{
+  width: 100%
+
+}
+
+.main{
+  margin-top: 220px;
+}
+
+.dogs a{
+  padding: 10px 10px;
+}
+
+@media (max-width:430px) {
+
+.dogs p{
+  display: none;
+}
+
+
+}

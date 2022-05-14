@@ -1,0 +1,89 @@
+.main2{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  margin-top: 115px;
+  margin-bottom: 80px;
+  background-color: white;
+  text-align: center;
+
+}
+hr{
+  width: 370px;
+}
+
+
+.cent {
+  width: 1200px;
+}
+.contenedorr{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.titulo555{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.7em;
+  font-weight: 400;
+  color: black;
+}
+.queS{
+  width: 500px;
+  margin: 35px;
+border: #aa2322 2px solid;
+padding: 20px;
+background-color: white;
+box-shadow: 1px 0px 10px #000000;
+-webkit-box-shadow: 1px 0px 10px #000000;
+-moz-box-shadow: 1px 0px 10px #000000;
+-ms-box-shadow: 1px 0px 10px #000000;
+}
+
+img{
+  width: 100%;
+
+}
+
+.QueEs{
+
+}
+
+.queS p {
+  animation-duration: 1.5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 20px;
+    width: 140%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@media (max-width:800px){
+
+  .contenedorr{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .queS{
+    text-align: center;
+    width: 370px;
+  }
+}
